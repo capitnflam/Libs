@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignPatterns", "DesignPatterns\DesignPatterns.vcxproj", "{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D797DE15-C09A-44E3-8ECB-A9C2480C541A}"
+	ProjectSection(SolutionItems) = preProject
+		Libs.vsmdi = Libs.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignPatternsTest", "DesignPatternsTest\DesignPatternsTest.vcxproj", "{02F05294-8330-4174-B58B-B55738C2B13F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0} = {3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils", "Utils\Utils.vcxproj", "{930B88E6-7801-445C-9124-4BE71263C16B}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Libs.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}.Debug|Win32.Build.0 = Debug|Win32
+		{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}.Release|Win32.ActiveCfg = Release|Win32
+		{3A2715A6-61C0-422B-857A-4ECFE2ABFCC0}.Release|Win32.Build.0 = Release|Win32
+		{02F05294-8330-4174-B58B-B55738C2B13F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02F05294-8330-4174-B58B-B55738C2B13F}.Debug|Win32.Build.0 = Debug|Win32
+		{02F05294-8330-4174-B58B-B55738C2B13F}.Release|Win32.ActiveCfg = Release|Win32
+		{02F05294-8330-4174-B58B-B55738C2B13F}.Release|Win32.Build.0 = Release|Win32
+		{930B88E6-7801-445C-9124-4BE71263C16B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{930B88E6-7801-445C-9124-4BE71263C16B}.Debug|Win32.Build.0 = Debug|Win32
+		{930B88E6-7801-445C-9124-4BE71263C16B}.Release|Win32.ActiveCfg = Release|Win32
+		{930B88E6-7801-445C-9124-4BE71263C16B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
